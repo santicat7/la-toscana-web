@@ -456,23 +456,17 @@ Estas fechas suelen reservarse con muchos meses de anticipación, por lo que rec
 </p>
 
 
-{/* Meses */}
-
-<div style={{
-  marginTop: "3rem",
-  display: "flex",
-  justifyContent: "center",
-  gap: "3rem",
-  flexWrap: "wrap"
-}}>
-
-<span>Agosto</span>
-<span>Septiembre</span>
-<span>Octubre</span>
-<span>Noviembre</span>
-<span>Diciembre</span>
-
-</div>
+<p
+  style={{
+    marginTop: "3rem",
+    fontSize: "0.9rem",
+    letterSpacing: "0.25em",
+    textTransform: "uppercase",
+    color: "var(--color-text-light)"
+  }}
+>
+  Agosto · Septiembre · Octubre · Noviembre · Diciembre
+</p>
 
 
 {/* Años */}
