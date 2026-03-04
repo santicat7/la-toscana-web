@@ -398,10 +398,10 @@ Años de experiencia
 
 <div>
 <p style={{fontSize:"2.8rem",fontFamily:"var(--font-heading)"}}>
-350
+2
 </p>
 <p style={{letterSpacing:"0.1em",fontSize:"0.75rem",textTransform:"uppercase"}}>
-Invitados máximo
+Salones integrales
 </p>
 </div>
 
