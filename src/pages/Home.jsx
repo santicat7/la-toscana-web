@@ -451,8 +451,8 @@ Las fechas más solicitadas del año
   color: "var(--color-text-light)",
   fontWeight: "300"
 }}>
-La mayor demanda de celebraciones se concentra entre septiembre y marzo. 
-Las fechas de primavera y verano suelen reservarse con muchos meses de anticipación.
+La mayor demanda de celebraciones se concentra entre agosto y diciembre, cuando comienzan las fiestas de primavera y fin de año.
+Estas fechas suelen reservarse con muchos meses de anticipación, por lo que recomendamos consultar disponibilidad cuanto antes.
 </p>
 
 <div style={{
@@ -463,13 +463,11 @@ Las fechas de primavera y verano suelen reservarse con muchos meses de anticipac
   flexWrap: "wrap"
 }}>
 
+<span>Enero</span>
 <span>Septiembre</span>
 <span>Octubre</span>
 <span>Noviembre</span>
 <span>Diciembre</span>
-<span>Enero</span>
-<span>Febrero</span>
-<span>Marzo</span>
 
 </div>
 
