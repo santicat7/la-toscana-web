@@ -61,7 +61,7 @@ Coordinamos una visita y te mostramos cómo funciona nuestro servicio integral.
 
                     {/* Elegant Minimal Form */}
                     <div style={{ backgroundColor: '#fff', padding: '4rem', boxShadow: '0 30px 60px rgba(0,0,0,0.03)', border: '1px solid rgba(0,0,0,0.02)' }}>
-                        <form ref={form} onSubmit={sendEmail}>
+                        <form onSubmit={sendEmail}>
                             <div className="form-group">
                                 <label style={{ fontSize: '0.7rem', letterSpacing: '0.1em', textTransform: 'uppercase', opacity: 0.5, display: 'block', marginBottom: '0.5rem' }}>Nombre Completo</label>
                                 <input type="text" name="name" className="form-control-premium" placeholder="Escribe tu nombre" />
