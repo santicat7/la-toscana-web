@@ -1,47 +1,25 @@
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
-const Contact = () => {
 
-const form = useRef();
+const Contact = () => {
 
 const sendEmail = (e) => {
   e.preventDefault();
 
   emailjs.sendForm(
-    "service_demo",
-    "template_demo",
-    form.current,
-    "public_demo_key"
+    "service_u4imdra",
+    "template_s3p5q9z",
+    e.target,
+    "xBRdqctcnIMqIxNKN"
   )
   .then(() => {
-    alert("Mensaje enviado correctamente. Te responderemos pronto.");
-    e.target.reset();
+      alert("Consulta enviada correctamente");
+      e.target.reset();
   })
   .catch((error) => {
-    console.log(error);
-    alert("Error al enviar el mensaje.");
+      console.log(error);
+      alert("Error al enviar el mensaje");
   });
-};
-const sendEmail = (e) => {
-  e.preventDefault();
-
-  emailjs
-    .sendForm(
-      "service_u4imdra",
-      "template_s3p5q9z",
-      e.target,
-      "xBRdqctcnIMqIxNKN"
-    )
-    .then(
-      () => {
-        alert("Consulta enviada correctamente");
-        e.target.reset();
-      },
-      (error) => {
-        console.log(error);
-        alert("Error al enviar el mensaje");
-      }
-    );
 };
     return (
         <div className="animate-fade">
@@ -76,7 +54,7 @@ Coordinamos una visita y te mostramos cómo funciona nuestro servicio integral.
                             </div>
                             <div>
                                 <h4 style={{ fontSize: '0.8rem', letterSpacing: '0.15em', textTransform: 'uppercase', marginBottom: '1rem', color: 'var(--color-primary)' }}>Email</h4>
-                                <p style={{ color: 'var(--color-text-light)', fontWeight: '300' }}>info@latoscanaeventos.com</p>
+                                <p style={{ color: 'var(--color-text-light)', fontWeight: '300' }}>info@latoscanaeventosuy.com</p>
                             </div>
                         </div>
                     </div>
