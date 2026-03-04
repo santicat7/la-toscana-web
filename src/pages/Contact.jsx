@@ -22,6 +22,27 @@ const sendEmail = (e) => {
     alert("Error al enviar el mensaje.");
   });
 };
+const sendEmail = (e) => {
+  e.preventDefault();
+
+  emailjs
+    .sendForm(
+      "service_u4imdra",
+      "template_s3p5q9z",
+      e.target,
+      "xBRdqctcnIMqIxNKN"
+    )
+    .then(
+      () => {
+        alert("Consulta enviada correctamente");
+        e.target.reset();
+      },
+      (error) => {
+        console.log(error);
+        alert("Error al enviar el mensaje");
+      }
+    );
+};
     return (
         <div className="animate-fade">
             <section className="section" style={{ paddingTop: '12rem', paddingBottom: '10rem' }}>
