@@ -463,11 +463,70 @@ Estas fechas suelen reservarse con muchos meses de anticipación, por lo que rec
   flexWrap: "wrap"
 }}>
 
-<span>Enero</span>
+<span>Agosto</span>
 <span>Septiembre</span>
 <span>Octubre</span>
 <span>Noviembre</span>
 <span>Diciembre</span>
+
+<div style={{
+marginTop: '3rem',
+display: 'flex',
+gap: '3rem',
+justifyContent: 'center',
+flexWrap: 'wrap'
+}}>
+
+<div style={{
+border: '1px solid rgba(0,0,0,0.08)',
+padding: '1.5rem 2rem',
+textAlign: 'center',
+background: '#fff'
+}}>
+<h3 style={{
+fontSize: '2rem',
+fontFamily: 'var(--font-heading)',
+marginBottom: '0.5rem'
+}}>
+2026
+</h3>
+
+<p style={{
+fontSize: '0.85rem',
+letterSpacing: '0.1em',
+textTransform: 'uppercase',
+color: 'var(--color-accent)'
+}}>
+75% reservado
+</p>
+</div>
+
+
+<div style={{
+border: '1px solid rgba(0,0,0,0.08)',
+padding: '1.5rem 2rem',
+textAlign: 'center',
+background: '#fff'
+}}>
+<h3 style={{
+fontSize: '2rem',
+fontFamily: 'var(--font-heading)',
+marginBottom: '0.5rem'
+}}>
+2027
+</h3>
+
+<p style={{
+fontSize: '0.85rem',
+letterSpacing: '0.1em',
+textTransform: 'uppercase',
+color: 'var(--color-accent)'
+}}>
+Agenda abierta · 50% reservado
+</p>
+</div>
+
+</div>
 
 </div>
 
