@@ -456,6 +456,8 @@ Estas fechas suelen reservarse con muchos meses de anticipación, por lo que rec
 </p>
 
 
+{/* Meses */}
+
 <div style={{
   marginTop: "3rem",
   display: "flex",
@@ -470,12 +472,16 @@ Estas fechas suelen reservarse con muchos meses de anticipación, por lo que rec
 <span>Noviembre</span>
 <span>Diciembre</span>
 
+</div>
+
+
+{/* Años */}
+
 <div style={{
 marginTop: '3rem',
 display: 'flex',
 gap: '3rem',
-justifyContent: 'center',
-flexWrap: 'wrap'
+justifyContent: 'center'
 }}>
 
 <div style={{
@@ -525,8 +531,6 @@ color: 'var(--color-accent)'
 }}>
 Agenda abierta · 50% reservado
 </p>
-</div>
-
 </div>
 
 </div>
