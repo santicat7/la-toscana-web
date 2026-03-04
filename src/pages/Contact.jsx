@@ -49,7 +49,7 @@ Coordinamos una visita y te mostramos cómo funciona nuestro servicio integral.
                             </div>
                             <div>
                                 <h4 style={{ fontSize: '0.8rem', letterSpacing: '0.15em', textTransform: 'uppercase', marginBottom: '1rem', color: 'var(--color-primary)' }}>WhatsApp</h4>
-                                <p style={{ color: 'var(--color-text-light)', fontWeight: '300' }}>+598 99 000 000</p>
+                                <p style={{ color: 'var(--color-text-light)', fontWeight: '300' }}>+598 99 779 639</p>
                             </div>
                             <div>
                                 <h4 style={{ fontSize: '0.8rem', letterSpacing: '0.15em', textTransform: 'uppercase', marginBottom: '1rem', color: 'var(--color-primary)' }}>Email</h4>
