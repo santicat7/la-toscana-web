@@ -564,3 +564,100 @@ img {
 .whatsapp-float img {
   width: 28px;
 }
+/* ========================= */
+/* MOBILE OPTIMIZATION */
+/* ========================= */
+
+@media (max-width: 768px){
+
+/* HERO */
+
+.hero{
+height:80vh;
+padding:0 1.5rem;
+}
+
+.hero-title{
+font-size:2rem !important;
+line-height:1.3;
+}
+
+.hero-subtitle{
+font-size:0.7rem;
+letter-spacing:0.25em;
+}
+
+/* TITLES */
+
+h2{
+font-size:1.9rem !important;
+}
+
+h3{
+font-size:1.4rem !important;
+}
+
+/* SECTIONS */
+
+.section{
+padding:4rem 1.5rem !important;
+}
+
+/* GRIDS */
+
+.grid-2{
+grid-template-columns:1fr !important;
+gap:3rem;
+}
+
+.grid-3{
+grid-template-columns:1fr !important;
+gap:2.5rem;
+}
+
+.grid-4{
+grid-template-columns:1fr 1fr !important;
+gap:2rem;
+}
+
+/* TESTIMONIOS */
+
+.grid-3 > div{
+padding:2rem !important;
+}
+
+/* SERVICIO INTEGRAL TEXTO */
+
+.section div[style*="justify-content: space-between"]{
+flex-direction:column;
+gap:1.5rem;
+align-items:center;
+text-align:center;
+}
+
+.section div[style*="justify-content: space-between"] p{
+width:100% !important;
+}
+
+/* IMAGENES */
+
+.card img{
+height:380px !important;
+}
+
+/* BOTONES */
+
+.btn{
+padding:16px 26px;
+font-size:0.9rem;
+}
+
+/* FOOTER */
+
+.footer-content{
+grid-template-columns:1fr !important;
+text-align:center;
+gap:3rem;
+}
+
+}
