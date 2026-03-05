@@ -43,15 +43,15 @@ const Gallery = () => {
     const categories = ['Todos', 'Bodas', '15 Años', 'Ambientaciones', 'Tecnología'];
 
     const images = [
-        { cat: 'Bodas', title: 'Ceremonia', url: bodaCeremonia01, size: 'large' },
+        { cat: 'Bodas', title: 'Ceremonia L&P', url: bodaCeremonia01, size: 'large' },
         { cat: 'Bodas', title: 'Celebración', url: bodaCeremonia02, size: 'medium' },
         { cat: 'Bodas', title: 'Celebración', url: bodaPista01, size: 'medium' },
         { cat: 'Bodas', title: 'De fiesta', url: bodaFiesta01, size: 'medium' },
         { cat: 'Bodas', title: 'Celebración', url: bodaPrevia01, size: 'medium' },
-        { cat: 'Bodas', title: 'Celebración', url: bodaPrevia03, size: 'medium' },
+        { cat: 'Bodas', title: 'Celebración', url: bodaPrevia03, size: 'small' },
         { cat: 'Bodas', title: 'Celebración', url: bodaFiesta03, size: 'medium' },
-        { cat: 'Bodas', title: 'Celebración', url: bodaPrevia08, size: 'medium' },
-        { cat: 'Bodas', title: 'Celebración', url: bodaPrevia04, size: 'medium' },
+        { cat: 'Bodas', title: 'Celebración', url: bodaPrevia08, size: 'small' },
+        { cat: 'Bodas', title: 'Celebración', url: bodaPrevia04, size: 'small' },
         { cat: '15 Años', title: 'Detalles que Brillan', url: quincePista01, size: 'medium' },
         { cat: '15 Años', title: 'Y ahora un grito de...', url: quincePista04, size: 'medium' },
         { cat: '15 Años', title: 'Detalles que Brillan', url: quincePista06, size: 'medium' },
@@ -248,7 +248,7 @@ Consultar disponibilidad
         .masonry-item {
   break-inside: avoid;
   margin-bottom: 1rem;
-  
+
   .masonry-item.large img {
   height: 520px;
 }
