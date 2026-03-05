@@ -95,24 +95,6 @@ Consultar fechas disponibles
           Diseñamos celebraciones completas, donde todo fluye sin que tengas que preocuparte por nada.
         </h2>
       </section>
-<section 
-className="impact-block"
-style={{backgroundImage:`url(${heroImage})`}}
->
-
-<div>
-
-<h2 style={{fontSize:'3rem'}}>
-Un lugar pensado para celebrar momentos irrepetibles
-</h2>
-
-<p style={{marginTop:'2rem',letterSpacing:'0.2em'}}>
-BODAS · 15 AÑOS · EVENTOS
-</p>
-
-</div>
-
-</section>
       
       {/* Testimonios */}
 <section 
