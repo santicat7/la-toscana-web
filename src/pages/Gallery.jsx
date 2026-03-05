@@ -55,13 +55,13 @@ const Gallery = () => {
         { cat: '15 Años', title: 'Selfi time', url: quincePista01, size: 'large' },
         { cat: '15 Años', title: 'Y ahora un grito de...', url: quincePista04, size: 'small' },
         { cat: '15 Años', title: 'Encendidos', url: quincePista06, size: 'small' },
-        { cat: '15 Años', title: 'Oppa, Gangnam... STYLE, url: quincePista08, size: 'medium' },
+        { cat: '15 Años', title: 'Oppa, Gangnam... STYLE', url: quincePista08, size: 'medium' },
         { cat: '15 Años', title: 'Siempre agitando', url: quincePista10, size: 'large' },
         { cat: '15 Años', title: 'Celebración en pista', url: quincePista13, size: 'medium' },
         { cat: '15 Años', title: 'Que no falte el cotillon', url: quincePista16, size: 'medium' },
         { cat: '15 Años', title: 'Vestidos que sii', url: quincePrevia01, size: 'medium' },
         { cat: '15 Años', title: 'Detalles que Brillan', url: quincePrevia02, size: 'medium' },
-        { cat: '15 Años', title: 'Previa de los XV, url: quincePrevia03, size: 'medium' },
+        { cat: '15 Años', title: 'Previa de los XV', url: quincePrevia03, size: 'medium' },
         { cat: 'Ambientaciones', title: 'Detalle recibidor', url: ambientacionFiesta01, size: 'medium' },
         { cat: 'Ambientaciones', title: 'Cartel lumionoso', url: ambientacionFiesta02, size: 'medium' },
         { cat: 'Ambientaciones', title: 'La Toscana Brillando', url: ambientacionFiesta03, size: 'medium' },
@@ -248,9 +248,18 @@ Consultar disponibilidad
         .masonry-item {
   break-inside: avoid;
   margin-bottom: 1rem;
+}
 
-  .masonry-item.large img {
+.masonry-item.large img {
   height: 520px;
+}
+
+.masonry-item.medium img {
+  height: 360px;
+}
+
+.masonry-item.small img {
+  height: 220px;
 }
 
 .masonry-item.medium img {
