@@ -311,33 +311,29 @@ img {
 .grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 2rem; }
 
 /* General Cards/Boxes overrides for elegant structure */
-.card {
-  background: transparent;
-  border-radius: 0;
-  overflow: hidden;
-  box-shadow: none;
-  transition: var(--transition);
-  position: relative;
+.card{
+background:transparent;
+border-radius:0;
+overflow:hidden;
+box-shadow:none;
+transition:all .6s cubic-bezier(.19,1,.22,1);
+position:relative;
 }
 
-.card:hover {
-  transform: translateY(-8px);
+.card:hover{
+transform:translateY(-8px);
 }
 
-.card:hover .line-indicator {
-  width: 80px;
+.card:hover .line-indicator{
+width:80px;
 }
 
-.card {
-  position: relative;
+.card img{
+transition:transform 1.2s cubic-bezier(.19,1,.22,1);
 }
 
-.card:hover .line-indicator {
-  width: 80px;
-}
-
-.card:hover {
-  transform: translateY(-8px);
+.card:hover img{
+transform:scale(1.05);
 }
 .card-img { height: 400px; width: 100%; object-fit: cover; transition: transform 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94); }
 .card:hover img {
