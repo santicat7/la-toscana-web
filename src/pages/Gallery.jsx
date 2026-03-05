@@ -248,6 +248,18 @@ Consultar disponibilidad
         .masonry-item {
   break-inside: avoid;
   margin-bottom: 1rem;
+  
+  .masonry-item.large img {
+  height: 520px;
+}
+
+.masonry-item.medium img {
+  height: 360px;
+}
+
+.masonry-item.small img {
+  height: 220px;
+}
 }
 
      
