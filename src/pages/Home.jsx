@@ -73,7 +73,7 @@ Consultar fechas disponibles
 </section>
 
       {/* Philosophy Section */}
-      <section className="section" style={{ padding: '10rem 2rem', textAlign: 'center' }}>
+      <section className="section reveal" style={{ padding: '10rem 2rem', textAlign: 'center' }}>
         <p style={{ 
           fontFamily: 'var(--font-body)', 
           textTransform: 'uppercase', 
