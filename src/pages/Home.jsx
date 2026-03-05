@@ -266,7 +266,7 @@ Más de 10 años organizando celebraciones en Paysandú.
       <section id="contenido" className="section" style={{ padding: '10rem 2rem', textAlign: 'center' }}>
         <div className="grid-2">
           {/* La Toscana */}
-          <Link to="/la-toscana" style={{ display: 'block', group: 'true' }} className="card">
+          <Link to="/la-toscana" style={{ display: 'block'}} className="card">
             <div style={{ overflow: 'hidden', marginBottom: '2rem' }}>
               <img 
                   src={laToscanaImage}
