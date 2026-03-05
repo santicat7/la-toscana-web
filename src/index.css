@@ -316,14 +316,18 @@ img {
   border-radius: 0;
   overflow: hidden;
   box-shadow: none;
-  transition: var(--transition);.card {
+  transition: var(--transition);
   position: relative;
+}
+
+.card:hover {
+  transform: translateY(-8px);
 }
 
 .card:hover .line-indicator {
   width: 80px;
 }
-}
+
 .card {
   position: relative;
 }
@@ -337,7 +341,7 @@ img {
 }
 .card-img { height: 400px; width: 100%; object-fit: cover; transition: transform 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94); }
 .card:hover img {
-  transform: scale(1.08);
+  transform: scale(1.05);
 }
 
 .card-content {
@@ -559,11 +563,103 @@ img {
   justify-content: center;
   z-index: 9999;
   box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  transition:transform .3s ease;
 }
 
-.whatsapp-float img {
-  width: 28px;
+
+.whatsapp-float:hover {
+transform:scale(1.08);
 }
+/* ========================= */
+/* SCROLL REVEAL ANIMATIONS */
+/* ========================= */
+
+.reveal {
+opacity:0;
+transform:translateY(40px);
+transition:all 1.2s cubic-bezier(.19,1,.22,1);
+}
+
+.reveal.visible {
+opacity:1;
+transform:translateY(0);
+}
+/* ========================= */
+/* PARALLAX SECTIONS */
+/* ========================= */
+
+.parallax {
+background-attachment:fixed;
+background-size:cover;
+background-position:center;
+}
+/* ========================= */
+/* PREMIUM TRANSITIONS */
+/* ========================= */
+
+.card {
+transition:all .6s cubic-bezier(.19,1,.22,1);
+}
+
+.card img {
+transition:transform 1.4s cubic-bezier(.19,1,.22,1);
+}
+
+.btn {
+transition:all .4s cubic-bezier(.19,1,.22,1);
+}
+/* ========================= */
+/* EDITORIAL GRID */
+/* ========================= */
+
+.editorial-grid {
+display:grid;
+grid-template-columns:2fr 1fr;
+gap:2rem;
+}
+
+.editorial-grid img {
+width:100%;
+height:100%;
+object-fit:cover;
+}
+
+.editorial-grid div {
+display:grid;
+gap:2rem;
+}
+/* ========================= */
+/* IMPACT BLOCK */
+/* ========================= */
+
+.impact-block {
+position:relative;
+height:90vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:#fff;
+background-size:cover;
+background-position:center;
+}
+
+.impact-block::before {
+content:"";
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.35);
+}
+
+.impact-block div {
+position:relative;
+z-index:2;
+max-width:800px;
+}
+
 /* ========================= */
 /* MOBILE OPTIMIZATION */
 /* ========================= */
