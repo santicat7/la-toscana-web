@@ -95,9 +95,28 @@ Consultar fechas disponibles
           Diseñamos celebraciones completas, donde todo fluye sin que tengas que preocuparte por nada.
         </h2>
       </section>
+<section 
+className="impact-block"
+style={{backgroundImage:`url(${heroImage})`}}
+>
+
+<div>
+
+<h2 style={{fontSize:'3rem'}}>
+Un lugar pensado para celebrar momentos irrepetibles
+</h2>
+
+<p style={{marginTop:'2rem',letterSpacing:'0.2em'}}>
+BODAS · 15 AÑOS · EVENTOS
+</p>
+
+</div>
+
+</section>
+      
       {/* Testimonios */}
 <section 
-  className="section" 
+  className="section reveal" 
   style={{ 
     padding: '6rem 2rem',
     backgroundColor: 'var(--color-surface)'
@@ -351,7 +370,7 @@ Más de 10 años organizando celebraciones en Paysandú.
 
       {/* Estadísticas */}
 <section 
-  className="section"
+  className="section reveal"
   style={{ 
     textAlign: "center",
     padding: "7rem 2rem",
@@ -421,7 +440,7 @@ Eventos personalizados
 {/* Temporada Alta */}
 
 <section
-  className="section"
+  className="section reveal"
   style={{
     textAlign: "center",
     padding: "6rem 2rem"
@@ -532,7 +551,7 @@ Agenda abierta · 50% reservado
 </section>
 
       {/* Cómo Reservar */}
-<section className="section" style={{ padding: '9rem 2rem' }}>
+<section className="section reveal" style={{ padding: '9rem 2rem' }}>
   <div style={{ maxWidth: '1100px', margin: '0 auto', textAlign: 'center' }}>
     
     <p style={{
@@ -710,12 +729,12 @@ Agenda abierta · 50% reservado
 
    {/* Visual Break */}
 <section 
-  style={{ 
-    height: '70vh',
-    backgroundImage: `url(${footerImage})`,
-    backgroundSize: 'cover',
-    backgroundPosition: 'center'
-  }}
+className="parallax"
+style={{ 
+height: '70vh',
+backgroundImage: `url(${footerImage})`
+}}
+
 ></section>
 
     </div>
