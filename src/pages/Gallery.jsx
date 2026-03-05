@@ -271,10 +271,11 @@ Consultar disponibilidad
           width: 100%;
           height: 100%;
           background: linear-gradient(
-  to top,
-  rgba(0,0,0,0.65),
-  rgba(0,0,0,0.35),
-  rgba(0,0,0,0)
+background: linear-gradient(
+to top,
+rgba(0,0,0,0.8),
+rgba(0,0,0,0.35),
+rgba(0,0,0,0)
 );
           display: flex;
           align-items: flex-end;
@@ -299,9 +300,9 @@ Consultar disponibilidad
   opacity: 1;
 }
 
-        .masonry-item:hover .gallery-img {
-          transform: scale(1.05);
-        }
+      .masonry-item:hover .gallery-img {
+  transform: scale(1.08);
+}
 
 .modal {
   position: fixed;
