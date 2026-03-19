@@ -280,7 +280,6 @@ Consultar disponibilidad
           width: 100%;
           height: 100%;
           background: linear-gradient(
-background: linear-gradient(
 to top,
 rgba(0,0,0,0.8),
 rgba(0,0,0,0.35),
